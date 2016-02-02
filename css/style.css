@@ -49,7 +49,7 @@ body{
 
 .container {
 	width: 95%;
-	max-width: 675px;
+	max-width: 900px;
 	margin: 0 auto;
 }
 
@@ -137,7 +137,7 @@ h1 {
     display: inline-block;
     padding: 10px;
     padding-left: 50px;
-    margin-left: 3px;
+    margin-left: -25px;
 }
 
 .down-arrow {
