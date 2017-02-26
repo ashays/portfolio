@@ -1,7 +1,7 @@
 // JavaScript Document
 $(function(){
   $("#siteSubtitle").typed({
-	  strings: ["Yellow Jacket", "Hackathon Enthusiast", "Graphic Designer", "Web Developer^1000"],
+	  strings: ["Yellow Jacket", "Hackathon Enthusiast", "User Experience Designer", "Web Developer^1000"],
 	  typeSpeed: 25,
 	  backDelay: 1000,
 	  loop: false,
