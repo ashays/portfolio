@@ -1,0 +1,24 @@
+#about #fold .subtitle {
+  display: block !important;
+}
+
+.about {
+    font-size: 20px;
+    margin: 15px 0;
+    line-height: 26px;
+    opacity: .75;
+    color: #555;
+    animation: fadeInLight .7s .5s 1 both;
+}
+
+.about .feature {
+    font-size: 18px;
+}
+
+.about:last-of-type {
+    margin-bottom: 50px;
+}
+
+.about a {
+    color: inherit;
+}
