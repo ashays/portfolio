@@ -109,7 +109,7 @@ body{
 }
 
 .social {
-  opacity: .85;    
+  opacity: .85;
   font-size: 25px;
 }
 
@@ -118,12 +118,12 @@ body{
   margin: 0 10px;
 }
 
-.social a i.fa {
+.social a i {
   transform: scale(1);
   transition: all .3s;
 }
 
-.social a:hover i.fa {
+.social a:hover i {
   transform: scale(1.15);
 }
 
@@ -278,6 +278,13 @@ h1 {
     100% { top: 40%; }
 }
 
+@media screen and (max-width: 950px) {
+  h1 {
+    margin: 0;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 725px) {
   .container {
     max-width: 450px;
@@ -310,11 +317,6 @@ h1 {
   
   .subtitle .typed-cursor {
     font-size: 25px;
-  }
-
-  h1 {
-    margin: 0;
-    text-align: center;
   }
 
   #projects {
