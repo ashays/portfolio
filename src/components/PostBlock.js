@@ -6,7 +6,7 @@ function PostBlock(props) {
           <div className="project post" style={{background: props.post.color}}>
             <div className="info">
               <h2>{props.post.title}</h2>
-              <span className="description">{props.post.description}…</span>
+              <span className="description">{props.post.description}</span>
               <span className="type">medium.com<i className="fas fa-external-link-alt" aria-hidden="true"></i></span>
             </div>
           </div>
