@@ -75,6 +75,9 @@ const projects = [
         name: "YouthReach",
         subtitle: "Creative website redesign submission for non-profit organization built using WordPress",
         color: "#1773BB",
+        graphics: [
+            {description: "YouthReach Site", width: 800, source: "https://lh3.googleusercontent.com/0iy4CmqVBdL9LIzU_Re1jRRxMRf7GDr8x6uhxKwgz3POkvzYgo_C-TRSwZi65C48K393JQ0VIHR8ldH7UnktPHfQs7kei8OLe_GIJypeKBazXb75b4bRtbhRiZse2-0BXA2zuAdnTzzVGinspCPGIcRCf55Pqunu5DMN3wbVMt54Qud54g7pL0S1p1-iVY3l2LLc6ddhZBYhsmJXNDYy7XXJ9KGGLaiIi411PbFBmsZx4oIxHQXwjM8AhpVCOpZITiJDlZQ4_nVZDdHlcU2NvZHNxaMMTmsg3zmdj6jwThB-adsWde-jZHwrequyryHepI7kuj8fZJsVdcqNAPLBUZbSV5rLkkRN2Eiv85YDeY3alLvlgxlyMhh1WI-6E07hK6JIU9Nkgtg98OYs4oZewx_GhSRoB8O6pBLFL5lMrGFfoglWvOMscOAFFZKuAHUHya-NoklFqvcw_eTKvv2AQFq6oj9ihgiUs0ay001cOZll0CWS03iNCmSFvdftq2botTPcj8ZGzO_ZULFdMwhQEX2_WHiiwcNqyEQP80qD6WwlFfDdeUjvjl-Eu6WQ-cRCpiGMpAT2S9IEGcIlSJBPCf30WKXL6wAc3NDmBMtb1LyJkib1HccwYTul-wm-q3CG0raRCwa8a3Zf2WKhTQpuxYejyQLR00K8UsEZRIWGbOAO43Wok9KnGMz-jSLOCfB3Mg=ft"}
+        ],
         tags: ["WEBChallenge Competition", "WordPress", "PHP"],
         awards: ["Grand Prize, TAG-Ed’s WEBChallenge Competition 2014"],
         links: [
