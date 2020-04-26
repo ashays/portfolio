@@ -50,6 +50,7 @@ class Landing extends Component {
                 <a href="https://linkedin.com/in/ashaysheth" target="_blank" title="LinkedIn" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
                 <a href="https://github.com/ashays" target="_blank" title="GitHub" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
                 <a href="https://behance.net/ashays" target="_blank" title="Behance" rel="noopener noreferrer"><i className="fab fa-behance"></i></a>
+                <a href="https://dribbble.com/ashay" target="_blank" title="Dribbble" rel="noopener noreferrer"><i className="fab fa-dribbble"></i></a>
                 <a href="https://medium.com/@ashaysheth" target="_blank" title="Medium" rel="noopener noreferrer"><i className="fab fa-medium"></i></a>
               </div>
               <svg viewBox="0 0 600 100" className="logo">
@@ -67,22 +68,18 @@ class Landing extends Component {
             </div>
           </div>
           <div className="section" id="projects">
-            <div className="container">
-              <h1>Projects</h1>
-              <div>
-                {this.projects.map(function(project, i) {
-                  return <ProjectBlock project={project} key={i} />
-                })}
-              </div>
+            <div className="container grid">
+              <h2>Projects</h2>
+              {this.projects.map(function(project, i) {
+                return <ProjectBlock project={project} key={i} />
+              })}
             </div>
           </div>
           <div className="section" id="blog">
-            <div className="container">
-              <h1>Thoughts</h1>
-              <div>
-                <PostBlock post={{url: "https://medium.com/@ashaysheth/at-the-component-level-14f1fd1a9381", title: "At the Component Level", color: "#12b5ec", description: "A synthesis of my thoughts and takeaways coming out of Clarity, a design systems community conference in San Francisco"}} />
-                <PostBlock post={{url: "https://medium.com/@ashaysheth/atms-fresh-eyes-on-an-older-technology-d494a1c307b7", title: "ATMs? Fresh Eyes on an Older Technology", color: "#3b84c8", description: "I’ve been at Capital One for approximately three months now as a user experience developer on the ATM and Kiosk team. I discovered what…"}} />
-              </div>
+            <div className="container grid">
+              <h2>Thoughts</h2>
+              <PostBlock post={{url: "https://medium.com/@ashaysheth/at-the-component-level-14f1fd1a9381", title: "At the Component Level", color: "#12b5ec", description: "A synthesis of my thoughts and takeaways coming out of Clarity, a design systems community conference in San Francisco"}} />
+              <PostBlock post={{url: "https://medium.com/@ashaysheth/atms-fresh-eyes-on-an-older-technology-d494a1c307b7", title: "ATMs? Fresh Eyes on an Older Technology", color: "#3b84c8", description: "I’ve been at Capital One for approximately three months now as a user experience developer on the ATM and Kiosk team. I discovered what…"}} />
             </div>
           </div>
           {/*<div className="section" id="contact">
