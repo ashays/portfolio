@@ -78,6 +78,7 @@ class Landing extends Component {
           <div className="section" id="blog">
             <div className="container grid">
               <h2>Thoughts</h2>
+              <PostBlock post={{url: "https://medium.com/@ashaysheth/a-little-spit-31682ea882b7", title: "A Little Spit", color: "#042447", description: "Reflections of a 24-year old, Indian-American, cisgender, gay male"}} />
               <PostBlock post={{url: "https://medium.com/@ashaysheth/at-the-component-level-14f1fd1a9381", title: "At the Component Level", color: "#12b5ec", description: "A synthesis of my thoughts and takeaways coming out of Clarity, a design systems community conference in San Francisco"}} />
               <PostBlock post={{url: "https://medium.com/@ashaysheth/atms-fresh-eyes-on-an-older-technology-d494a1c307b7", title: "ATMs? Fresh Eyes on an Older Technology", color: "#3b84c8", description: "I’ve been at Capital One for approximately three months now as a user experience developer on the ATM and Kiosk team. I discovered what…"}} />
             </div>
