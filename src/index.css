@@ -73,7 +73,7 @@ body{
 }
 
 .animation .section#fold:first-of-type {
-  animation: shrinkFoldHeight .7s 10s 1 both;
+  animation: shrinkFoldHeight .7s 12s 1 both;
 }
 
 .section:last-of-type {
@@ -100,7 +100,7 @@ body{
 
 .animation .centered {
   top: 50%;
-  animation: shrinkFoldTop .7s 10s 1 both;
+  animation: shrinkFoldTop .7s 12s 1 both;
 }
 
 #fold .subtitle {
@@ -112,7 +112,7 @@ body{
 }
 
 /* .animation .social {
-  animation: fadeInLight .7s 9.5s 1 both;
+  animation: fadeInLight .7s 11.5s 1 both;
 } */
 
 .social {
@@ -168,7 +168,7 @@ body{
 }
 
 .animation .aboutBtn {
-  animation: fadeInLight .7s 9.5s 1 both;
+  animation: fadeInLight .7s 11.5s 1 both;
 }
 
 #projects, #blog {

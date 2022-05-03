@@ -19,7 +19,7 @@ class Landing extends Component {
     window.addEventListener('scroll', this.handleScroll);
     if (this.props.animation) {
       const options = {
-        strings: ["Hello!^500 My name is <strong>Ashay Sheth</strong> and I build thoughtfully designed web and mobile experiences^2500"],
+        strings: ["Hi!^300 I'm <strong>Ashay Sheth</strong>^300—a self-starter, systems-thinker, and creative with a passion for building thoughtfully designed experiences^2500"],
         typeSpeed: 60,
         loop: false,
         onComplete: this.props.endAnimation
@@ -63,7 +63,7 @@ class Landing extends Component {
                 <path style={{fill: "#F7C600"}} d="M93.4,99.4c-26.1,0-52.1,0-78.2,0c0-0.7,0-1.3,0-2C28.6,66,41.1,34,53.7,1.7c0.4,0,0.9,0,1.3,0 C67.3,34.8,81.2,66.2,93.4,99.4z"/>
               </svg>
               <div className="subtitle"><span ref={(el) => { this.subtitle = el; }}></span></div>
-              <div className="subtitle">Hello! My name is <strong>Ashay Sheth</strong> and I build thoughtfully designed web and mobile experiences<span className="typed-cursor">|</span></div>
+              <div className="subtitle">Hi! I'm <strong>Ashay Sheth</strong>—a self-starter, systems-thinker, and creative with a passion for building thoughtfully designed experiences<span className="typed-cursor">|</span></div>
               <Link to="/me"><div className="aboutBtn">More About Me</div></Link>
             </div>
           </div>

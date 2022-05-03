@@ -35,9 +35,10 @@ class About extends Component {
                 <path style={{fill: "#F7C600"}} d="M93.4,99.4c-26.1,0-52.1,0-78.2,0c0-0.7,0-1.3,0-2C28.6,66,41.1,34,53.7,1.7c0.4,0,0.9,0,1.3,0 C67.3,34.8,81.2,66.2,93.4,99.4z"/>
                 </svg>
               </Link>
-              <div className="subtitle">Hello! My name is <strong>Ashay Sheth</strong> and I build thoughtfully designed web and mobile experiences</div>
-              <p>Currently, I am a creative technologist on the Machine Experiences team at Capital One, working primarily in the space physical and digital money meet&mdash;the ATM. Designing and building for ATMs has been an exciting challenge as there are interesting constraints and a unique physicality paired with the digital experience.</p>
+              <div className="subtitle">Hi! I'm <strong>Ashay Sheth</strong>—a self-starter, systems-thinker, and creative with a passion for building thoughtfully designed experiences<span className="typed-cursor">|</span></div>
+              <p>Currently, I am a creative technologist and UX designer on the in-person experiences design team at Capital One, thinking about the future of physical transacting and ATMs</p>
               <p>In 2017, I graduated with a Computer Science degree from Georgia Tech, with human-computer interaction and artificial intelligence concentrations, along with a minor in economics.</p>
+              <p>From launching new features at Capital One to building products at startups to publishing my own apps, I have a diverse range of experience across organizations and roles, including UX design, mobile and web development, research, and design strategy.</p>
               <p>I am deeply interested in social computing, human-centered AI, tech for social good, and STEM education. I volunteer regularly with <a href="https://outintech.com/" target="_blank" rel="noopener noreferrer">Out in Tech</a> and <a href="https://www.citizenschools.org/" target="_blank" rel="noopener noreferrer">Citizen Schools</a>.</p>
               <p><strong>I love keeping myself busy, </strong>whether that be working on side-projects, freelancing, or tinkering with new technologies. Shoot me an <a href="mailto:ashay.sheth@gmail.com">email</a> and let's build something together!</p>
               <Link to="/" className="backBtn"><i className="fas fa-long-arrow-alt-left"></i>Back</Link>
