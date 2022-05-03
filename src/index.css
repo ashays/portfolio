@@ -355,6 +355,10 @@ h2 {
     min-height: unset;
   }
 
+  .project.large {
+    grid-column: span 1;
+  }
+
   .centered {
     top: 40%;
     margin-top: -100px;
