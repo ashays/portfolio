@@ -206,6 +206,10 @@ h2 {
   text-decoration: none;
 }
 
+.project.large {
+  grid-column: span 2;
+}
+
 .project.post {
   padding: 30px 20px;
   grid-column: span 2;

@@ -51,7 +51,7 @@ class Project extends Component {
               <h1>{this.project.name}</h1>
               <div className="description">{this.project.subtitle}</div>
               {this.project.job &&
-                <div className="feature"><i className="fas fa-briefcase" aria-hidden="true"></i>{this.project.job.title}, {this.project.job.dates}</div>
+                <div className="feature"><i className="fas fa-briefcase" aria-hidden="true"></i>{this.project.job.title} at {this.project.job.company}, {this.project.job.dates}</div>
               }
               {this.project.awards && this.project.awards.map(function(award, i) {
                 return <div className="feature" key={i}><i className="fas fa-trophy"></i>{award}</div>
